@@ -9,6 +9,9 @@ packages = [{include = "just_count", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 
+[tool.poetry.scripts]
+count = "just_count.count_count:main"
+
 
 [build-system]
 requires = ["poetry-core"]
